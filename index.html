@@ -7,24 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Simple Calculator</h2>
-    <input type="text" id="result" disabled><br>
-    <input type="button" value="1" onclick="addToResult('1')">
-    <input type="button" value="2" onclick="addToResult('2')">
-    <input type="button" value="3" onclick="addToResult('3')">
-    <input type="button" value="+" onclick="addToResult('+')"><br>
-    <input type="button" value="4" onclick="addToResult('4')">
-    <input type="button" value="5" onclick="addToResult('5')">
-    <input type="button" value="6" onclick="addToResult('6')">
-    <input type="button" value="-" onclick="addToResult('-')"><br>
-    <input type="button" value="7" onclick="addToResult('7')">
-    <input type="button" value="8" onclick="addToResult('8')">
-    <input type="button" value="9" onclick="addToResult('9')">
-    <input type="button" value="*" onclick="addToResult('*')"><br>
-    <input type="button" value="C" onclick="clearResult()">
-    <input type="button" value="0" onclick="addToResult('0')">
-    <input type="button" value="=" onclick="calculate()">
-    <input type="button" value="/" onclick="addToResult('/')">
+    <div class="calculator">
+        <input class="display-primary" readonly>
+        <div class="keys">
+            <button onclick="" class="operator-btn">+</button>
+            <button onclick="">7</button>
+            <button onclick="">8</button>
+            <button onclick="">9</button>
+            <button onclick="" class="operator-btn">-</button>
+            <button onclick="">4</button>
+            <button onclick="">5</button>
+            <button onclick="">6</button>
+            <button onclick="" class="operator-btn">*</button>
+            <button onclick="">1</button>
+            <button onclick="">2</button>
+            <button onclick="">3</button>
+            <button onclick="" class="operator-btn">/</button>
+            <button onclick="">0</button>
+            <button onclick="">.</button>
+            <button onclick="" class="operator-btn">=</button>
+            <button onclick="" class="operator-btn">AC</button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
