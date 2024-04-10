@@ -16,14 +16,24 @@ body {
     box-shadow: 0px 0px 15px;
 }
 
-.display-primary{
+.output-display{
     width: 100%;
-    padding: 20px;
+    padding: 10px;
+    height: 100px;
     font-size: 5rem;
     text-align: left;
     border: none;
     background-color: hsl(0, 0%, 40%);
+}
+
+.current-operand {
     color: white;
+    font-size: 3rem;
+}
+
+.previous-operand {
+    color: white;
+    font-size: 1.5rem;
 }
 
 .keys {
@@ -64,4 +74,11 @@ button:active{
 
 .operator-btn:active {
     background-color: hsl(16, 100%, 80%);
+}
+
+#two-column{
+    grid-column: span 2;
+    height: 80px;
+    width: 160px;
+    border-radius: 30px;
 }

@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="calculator">
-        <input class="display-primary" readonly>
-        <div class="keys">
-            <button onclick="" class="operator-btn">+</button>
-            <button onclick="">7</button>
-            <button onclick="">8</button>
-            <button onclick="">9</button>
-            <button onclick="" class="operator-btn">-</button>
-            <button onclick="">4</button>
-            <button onclick="">5</button>
-            <button onclick="">6</button>
-            <button onclick="" class="operator-btn">*</button>
-            <button onclick="">1</button>
-            <button onclick="">2</button>
-            <button onclick="">3</button>
-            <button onclick="" class="operator-btn">/</button>
-            <button onclick="">0</button>
-            <button onclick="">.</button>
-            <button onclick="" >=</button>
-            <button onclick="" class="operator-btn">AC</button>
-            <button onclick="" >DEL</button>
-        </div>
+      <div class="output-display">
+        <div class="previous-operand"></div>
+        <div class="current-operand"></div>
+      </div>
+      <div class="keys">
+        <button class="operator-btn">+</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="operator-btn">-</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator-btn">*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operator-btn">÷</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button class="operator-btn" id="two-column">AC</button>
+        <button id="two-column">DEL</button>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
